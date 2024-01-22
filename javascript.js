@@ -26,6 +26,7 @@ async function checkweather(city){
    else if (data.weather[0].main == "wind") {
 
         weatherIcon.src="wind.png"
+       
     }
 
 }
